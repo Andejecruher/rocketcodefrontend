@@ -2,6 +2,7 @@
 
 1.- Contar con Node.JS instalado 
 2.- Acceder a la ubicacion de la carpeta ROCKETCODEFRONTEND en la Terminal
-3.- Ejecutar el comando nmp star . yarn star
-4.- ahora podemos ver nuestro proyecto en  http://localhost:3000
+3.- Ejecutar npm install
+4.- Ejecutar el comando nmp star . yarn star
+5.- ahora podemos ver nuestro proyecto en  http://localhost:3000
 

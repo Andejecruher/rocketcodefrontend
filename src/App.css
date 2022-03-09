@@ -6,13 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +33,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#sendDateApi{
+  display: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+  -moz-animation: forwards;
+  -webkit-animation: forwards;
+  animation: forwards;
+}
+#birthDate{
+  display: none;
+}
+#contactDate{
+  display: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+  -moz-animation: forwards;
+  -webkit-animation: forwards;
+  animation: forwards;
+}
+.slidein {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    display: none;
+  }
+
+  to {
+   display: block;
+ }
 }
